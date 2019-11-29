@@ -12,7 +12,7 @@ import requests
 import configparser
 
 config = configparser.ConfigParser()
-config.read('project_config.ini')
+config.read('src/main/python/project_config.ini')
 
 app = Flask(__name__)
 

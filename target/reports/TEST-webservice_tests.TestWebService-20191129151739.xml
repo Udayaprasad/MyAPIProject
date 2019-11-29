@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" file="webservice_tests.py" name="webservice_tests.TestWebService-20191129151739" skipped="0" tests="4" time="2.890" timestamp="2019-11-29T15:17:42">
+	<testcase classname="webservice_tests.TestWebService" file="src/unittest/python/webservice_tests.py" line="516" name="test_webservice_0_positive_case1" time="0.975" timestamp="2019-11-29T15:17:40">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="webservice_tests.TestWebService" file="src/unittest/python/webservice_tests.py" line="516" name="test_webservice_1_negative_case1" time="0.957" timestamp="2019-11-29T15:17:41">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="webservice_tests.TestWebService" file="src/unittest/python/webservice_tests.py" line="516" name="test_webservice_2_positive_case2" time="0.954" timestamp="2019-11-29T15:17:42">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="webservice_tests.TestWebService" file="src/unittest/python/webservice_tests.py" line="516" name="test_webservice_3_negative_case2" time="0.005" timestamp="2019-11-29T15:17:42">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+</testsuite>

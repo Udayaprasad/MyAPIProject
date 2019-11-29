@@ -1,0 +1,10 @@
+WebServiceExercise.py
+response_data.py
+setup.py
+MyAPIProject.egg-info/PKG-INFO
+MyAPIProject.egg-info/SOURCES.txt
+MyAPIProject.egg-info/dependency_links.txt
+MyAPIProject.egg-info/namespace_packages.txt
+MyAPIProject.egg-info/requires.txt
+MyAPIProject.egg-info/top_level.txt
+MyAPIProject.egg-info/zip-safe

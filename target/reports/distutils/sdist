@@ -1,0 +1,41 @@
+running clean
+'build/temp.macosx-10.9-x86_64-2.7' does not exist -- can't clean it
+'build/lib' does not exist -- can't clean it
+'build/bdist.macosx-10.9-x86_64' does not exist -- can't clean it
+'build/scripts-2.7' does not exist -- can't clean it
+running sdist
+running egg_info
+creating MyAPIProject.egg-info
+writing requirements to MyAPIProject.egg-info/requires.txt
+writing MyAPIProject.egg-info/PKG-INFO
+writing namespace_packages to MyAPIProject.egg-info/namespace_packages.txt
+writing top-level names to MyAPIProject.egg-info/top_level.txt
+writing dependency_links to MyAPIProject.egg-info/dependency_links.txt
+writing manifest file 'MyAPIProject.egg-info/SOURCES.txt'
+reading manifest file 'MyAPIProject.egg-info/SOURCES.txt'
+writing manifest file 'MyAPIProject.egg-info/SOURCES.txt'
+warning: sdist: standard file not found: should have one of README, README.rst, README.txt, README.md
+
+running check
+creating MyAPIProject-1.0
+creating MyAPIProject-1.0/MyAPIProject.egg-info
+copying files to MyAPIProject-1.0...
+copying WebServiceExercise.py -> MyAPIProject-1.0
+copying response_data.py -> MyAPIProject-1.0
+copying setup.py -> MyAPIProject-1.0
+copying MyAPIProject.egg-info/PKG-INFO -> MyAPIProject-1.0/MyAPIProject.egg-info
+copying MyAPIProject.egg-info/SOURCES.txt -> MyAPIProject-1.0/MyAPIProject.egg-info
+copying MyAPIProject.egg-info/dependency_links.txt -> MyAPIProject-1.0/MyAPIProject.egg-info
+copying MyAPIProject.egg-info/namespace_packages.txt -> MyAPIProject-1.0/MyAPIProject.egg-info
+copying MyAPIProject.egg-info/requires.txt -> MyAPIProject-1.0/MyAPIProject.egg-info
+copying MyAPIProject.egg-info/top_level.txt -> MyAPIProject-1.0/MyAPIProject.egg-info
+copying MyAPIProject.egg-info/zip-safe -> MyAPIProject-1.0/MyAPIProject.egg-info
+not copying MyAPIProject.egg-info/SOURCES.txt (output up-to-date)
+Reading configuration from MyAPIProject-1.0/setup.cfg
+Adding new section [egg_info] to MyAPIProject-1.0/setup.cfg
+Setting egg_info.tag_build to '' in MyAPIProject-1.0/setup.cfg
+Setting egg_info.tag_date to 0 in MyAPIProject-1.0/setup.cfg
+Writing MyAPIProject-1.0/setup.cfg
+creating dist
+Creating tar archive
+removing 'MyAPIProject-1.0' (and everything under it)

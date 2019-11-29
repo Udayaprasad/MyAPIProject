@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: MyAPIProject
+Version: 1.0
+Summary: Example PyBuilder / Git project
+Home-page: https://github.com/Udayaprasad/MyAPIProject
+Author: Uday Vakalapudi
+Author-email: uday.vakalapudi@gmail.com
+License: None
+Description:  This WebService is responsible for returning filtered quotes by movie and character fields 
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Requires-Python: <3.7,>=2.7

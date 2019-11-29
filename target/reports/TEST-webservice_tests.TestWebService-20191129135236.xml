@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="4" failures="0" file="webservice_tests.py" name="webservice_tests.TestWebService-20191129135236" skipped="0" tests="4" time="0.016" timestamp="2019-11-29T13:52:36">
+	<testcase classname="webservice_tests.TestWebService" file="src/unittest/python/webservice_tests.py" line="516" name="test_webservice_0_positive_case1" time="0.009" timestamp="2019-11-29T13:52:36">
+		<error message="HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /quotes/movie/5cd95395de30eff6ebccde5b/character/5cd99d4bde30eff6ebccfea0 (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x105d08ad0&gt;: Failed to establish a new connection: [Errno 61] Connection refused',))" type="ConnectionError">
+<![CDATA[Traceback (most recent call last):
+  File "/Users/uvakalapudi/Desktop/pybuilderproject/MyAPIProject/mypyenv/lib/python2.7/site-packages/parameterized/parameterized.py", line 518, in standalone_func
+    return func(*(a + p.args), **p.kwargs)
+  File "/Users/uvakalapudi/Desktop/pybuilderproject/MyAPIProject/src/unittest/python/webservice_tests.py", line 25, in test_webservice
+    response_data = requests.get(request_url)
+  File "/Users/uvakalapudi/Desktop/pybuilderproject/MyAPIProject/mypyenv/lib/python2.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Users/uvakalapudi/Desktop/pybuilderproject/MyAPIProject/mypyenv/lib/python2.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/uvakalapudi/Desktop/pybuilderproject/MyAPIProject/mypyenv/lib/python2.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/uvakalapudi/Desktop/pybuilderproject/MyAPIProject/mypyenv/lib/python2.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/uvakalapudi/Desktop/pybuilderproject/MyAPIProject/mypyenv/lib/python2.7/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /quotes/movie/5cd95395de30eff6ebccde5b/character/5cd99d4bde30eff6ebccfea0 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x105d08ad0>: Failed to establish a new connection: [Errno 61] Connection refused',))
+]]>		</error>
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="webservice_tests.TestWebService" file="src/unittest/python/webservice_tests.py" line="516" name="test_webservice_1_negative_case1" time="0.003" timestamp="2019-11-29T13:52:36">
+		<error message="HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /quotes/movie/5cd95395de30eff6ebccde5b/character/5cd99d4bde30eff6ebccfe07 (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x105d45610&gt;: Failed to establish a new connection: [Errno 61] Connection refused',))" type="ConnectionError">
+<![CDATA[Traceback (most recent call last):
+  File "/Users/uvakalapudi/Desktop/pybuilderproject/MyAPIProject/mypyenv/lib/python2.7/site-packages/parameterized/parameterized.py", line 518, in standalone_func
+    return func(*(a + p.args), **p.kwargs)
+  File "/Users/uvakalapudi/Desktop/pybuilderproject/MyAPIProject/src/unittest/python/webservice_tests.py", line 25, in test_webservice
+    response_data = requests.get(request_url)
+  File "/Users/uvakalapudi/Desktop/pybuilderproject/MyAPIProject/mypyenv/lib/python2.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Users/uvakalapudi/Desktop/pybuilderproject/MyAPIProject/mypyenv/lib/python2.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/uvakalapudi/Desktop/pybuilderproject/MyAPIProject/mypyenv/lib/python2.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/uvakalapudi/Desktop/pybuilderproject/MyAPIProject/mypyenv/lib/python2.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/uvakalapudi/Desktop/pybuilderproject/MyAPIProject/mypyenv/lib/python2.7/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /quotes/movie/5cd95395de30eff6ebccde5b/character/5cd99d4bde30eff6ebccfe07 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x105d45610>: Failed to establish a new connection: [Errno 61] Connection refused',))
+]]>		</error>
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="webservice_tests.TestWebService" file="src/unittest/python/webservice_tests.py" line="516" name="test_webservice_2_positive_case2" time="0.002" timestamp="2019-11-29T13:52:36">
+		<error message="HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /quotes/movie/5cd95395de30eff6ebccde5d/character/5cd99d4bde30eff6ebccfe9e (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x105d45690&gt;: Failed to establish a new connection: [Errno 61] Connection refused',))" type="ConnectionError">
+<![CDATA[Traceback (most recent call last):
+  File "/Users/uvakalapudi/Desktop/pybuilderproject/MyAPIProject/mypyenv/lib/python2.7/site-packages/parameterized/parameterized.py", line 518, in standalone_func
+    return func(*(a + p.args), **p.kwargs)
+  File "/Users/uvakalapudi/Desktop/pybuilderproject/MyAPIProject/src/unittest/python/webservice_tests.py", line 25, in test_webservice
+    response_data = requests.get(request_url)
+  File "/Users/uvakalapudi/Desktop/pybuilderproject/MyAPIProject/mypyenv/lib/python2.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Users/uvakalapudi/Desktop/pybuilderproject/MyAPIProject/mypyenv/lib/python2.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/uvakalapudi/Desktop/pybuilderproject/MyAPIProject/mypyenv/lib/python2.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/uvakalapudi/Desktop/pybuilderproject/MyAPIProject/mypyenv/lib/python2.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/uvakalapudi/Desktop/pybuilderproject/MyAPIProject/mypyenv/lib/python2.7/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /quotes/movie/5cd95395de30eff6ebccde5d/character/5cd99d4bde30eff6ebccfe9e (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x105d45690>: Failed to establish a new connection: [Errno 61] Connection refused',))
+]]>		</error>
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="webservice_tests.TestWebService" file="src/unittest/python/webservice_tests.py" line="516" name="test_webservice_3_negative_case2" time="0.002" timestamp="2019-11-29T13:52:36">
+		<error message="HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /quotes/movie/5cd95395de30eff6ebccde5/character/5cd99d4bde30eff6ebccfe9e (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x105d456d0&gt;: Failed to establish a new connection: [Errno 61] Connection refused',))" type="ConnectionError">
+<![CDATA[Traceback (most recent call last):
+  File "/Users/uvakalapudi/Desktop/pybuilderproject/MyAPIProject/mypyenv/lib/python2.7/site-packages/parameterized/parameterized.py", line 518, in standalone_func
+    return func(*(a + p.args), **p.kwargs)
+  File "/Users/uvakalapudi/Desktop/pybuilderproject/MyAPIProject/src/unittest/python/webservice_tests.py", line 25, in test_webservice
+    response_data = requests.get(request_url)
+  File "/Users/uvakalapudi/Desktop/pybuilderproject/MyAPIProject/mypyenv/lib/python2.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Users/uvakalapudi/Desktop/pybuilderproject/MyAPIProject/mypyenv/lib/python2.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/uvakalapudi/Desktop/pybuilderproject/MyAPIProject/mypyenv/lib/python2.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/uvakalapudi/Desktop/pybuilderproject/MyAPIProject/mypyenv/lib/python2.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/uvakalapudi/Desktop/pybuilderproject/MyAPIProject/mypyenv/lib/python2.7/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /quotes/movie/5cd95395de30eff6ebccde5/character/5cd99d4bde30eff6ebccfe9e (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x105d456d0>: Failed to establish a new connection: [Errno 61] Connection refused',))
+]]>		</error>
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+</testsuite>
